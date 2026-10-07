@@ -1,0 +1,21 @@
+{
+  "name": "field-service-image-handoff",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/field_service_handoff.ts",
+    "example": "tsx src/field_service_handoff.ts --example",
+    "test": "tsx --test test/work_order_image.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^5.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
